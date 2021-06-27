@@ -1,52 +1,65 @@
-body{
-   background-color: #78aeda3d;   
+:root {
+  --black: #000;
+  --background: #06040cf5;
+  --background2: #0e0d13;
+  --orange: #c0640d;
+  --blue: #101a53f5;
+  --white: #fff;
+  --light: #c4c3c3;
 }
-h2{
-    color:#0978b8!important;
-    font-weight: 700;
-    text-shadow:1px 1px 3px #000;
+body {
+  background-color: var(--background);
 }
-input{
-    width: 70%;
-    height: 40px;
-    margin-top: 20px;    
-    border: 0;
-    border-bottom: 1px solid #cbe3f0b0;        
-    background-color: #78aeda3d; 
-} 
-button{
-    width: 70%;
-    margin-top: 10px;
-    background-color: #4682B4!important;
-    border-style: none !important;
-    color: #fff!important;
+h2 {
+  color: var(--light) !important;
+  padding: 20px;
 }
-button:hover{
-    background-color: #3ea03e!important;
+input {
+  width: 70%;
+  height: 40px;
+  margin-top: 20px;
+  border: 0;
+  border-bottom: 1px solid var(--light);
+  background-color: var(--background2) !important;
+  color: var(--light);
 }
-li{
-    list-style: none;
+button {
+  width: 70%;
+  margin-top: 40px;
+  background-color: var(--blue) !important;
+  border-style: none !important;
+  color: var(--light) !important;
+  font-weight: bold !important;
+  font-size: 20px !important;
+  box-shadow: 3px 3px 6px var(--black);
 }
-.output{    
-    padding: 20px;
-    width: 80%;
-    border-radius:10px;
-    color: #4682B4;    
-    font-size: 20px;    
-    font-weight: 500;  
-    margin: auto;
-    background-color: #fff;
+button:hover {
+  background-color: var(--orange) !important;
 }
-.output img{
-    max-width:40%;
-    margin: 20px;        
+li {
+  list-style: none;
+}
+.output {
+  padding: 20px;
+  width: 80%;
+  border-radius: 10px;
+  color: var(--light);
+  font-size: 15px;
+  font-weight: 500;
+  margin: auto;
+  background-color: var(--background2);
+  box-shadow: 2px 2px 20px var(--black);
+}
+.output img {
+  max-width: 40%;
+  margin: 30px;
 }
 @media (max-width: 768px) {
-    .output img{
-        max-width:60%;
-        margin: 10px;        
-    }
-    .output{
-        font-size: 15px;
-    }    
+  .output img {
+    max-width: 60%;
+    margin: 10px;
+  }
+  .output {
+    font-size: 15px;
+  }
 }
