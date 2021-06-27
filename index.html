@@ -1,35 +1,50 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <!-- CSS only -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
     <title>Document</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>   
-  <div class="container-fluid p-5">
-    <div class="row justify-content-center align-items-center">
-      <div class="col-md-6 p-3 text-center">
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container-fluid p-5">
+      <div class="row justify-content-center align-items-center">
+        <div class="col-md-6 p-3 text-center">
           <h2>CountryFinder</h2>
-          <img src="img/icon search.svg" alt="world globe" class="text-center">
+          <img
+            src="img/icon search.svg"
+            alt="world globe"
+            class="text-center"
+          />
           <form action="">
-            <input type="text" id="country" placeholder="Country"><br>
-            <button id="get-country" class="btn btn-outline-dark">Get Country</button>
-          </form>  
-      </div>  
-      <div class="col-md-6 p-3 text-center">
-        <div class="output">
-          <ul id="country-data"></ul>
-        </div> 
-      </div>   
+            <input type="text" id="country" placeholder="Enter Country" /><br />
+            <button id="get-country" class="btn btn-outline-dark">
+              Get Country
+            </button>
+          </form>
+        </div>
+        <div class="col-md-6 p-3 text-center">
+          <div class="output">
+            <ul id="country-data"></ul>
+          </div>
+        </div>
+      </div>
     </div>
-  </div>
-  <div id="images" class="show-img"></div>
+    <div id="images" class="show-img"></div>
     <!-- JavaScript Bundle with Popper -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
     <script src="app.js"></script>
-</body>
+  </body>
 </html>

@@ -17,9 +17,9 @@ h2 {
 input {
   width: 70%;
   height: 40px;
-  margin-top: 20px;
+  margin-top: 50px;
   border: 0;
-  border-bottom: 1px solid var(--light);
+  border: 1px solid var(--light);
   background-color: var(--background2) !important;
   color: var(--light);
 }
